@@ -15,7 +15,7 @@ SPIDER_MODULES = ['changeip.spiders']
 NEWSPIDER_MODULE = 'changeip.spiders'
 
 #MongoDB settings
-MONGO_HOST = "127.0.0.1"
+MONGO_HOST = "localhost"
 MONGO_PORT = 27017
 MONGO_DB = "changeip"
 MONGO_DOC = "IpPool"
